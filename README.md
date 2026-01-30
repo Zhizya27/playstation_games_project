@@ -4,10 +4,9 @@ Pet-проект по исследованию данных о продажах 
 
 - **Источник данных:** Kaggle — Playstation Sales and Metadata (PS3 / PS4 / PS5)  
 - **Цель:** превратить сырой датасет в удобный аналитический слой и визуальный дашборд для изучения продаж игр по платформам, периодам и другим параметрам.
-- **Стек:** Python (Google Colab, pandas, matplotlib, seaborn, scipy, numpy), Preset/Superset.
+- **Стек:** Python (Google Colab, pandas, matplotlib, seaborn, scipy, numpy), Superset.
 
-> Google Colab ноутбук: https://colab.research.google.com/drive/1W5J6cOjZwB38FKVccqjt6OjESDRV1kiT?usp=sharing  
-> Дашборд Superset: https://f45072c3.us2a.app.preset.io/superset/dashboard/11/?native_filters_key=YWHsKkDiCptBYRyJoy1s1HfNtFrifH9NiO5Ks1VKjjIGSiBOnNsEBY2JMVp8D6RR
+> Google Colab ноутбук: https://colab.research.google.com/drive/1W5J6cOjZwB38FKVccqjt6OjESDRV1kiT?usp=sharing   
 > Датасет Kaggle: [Playstation Sales and Metadata (PS3 / PS4 / PS5)](https://www.kaggle.com/datasets/gvidalguiresse/playstation-sales-and-metadata-ps3ps4ps5)
 
 
@@ -18,7 +17,7 @@ Pet-проект по исследованию данных о продажах 
   - Очистка и предобработка данных.
   - Исследовательский анализ (EDA) и визуализация в Python.
   - Подготовка итогового датафрейма и экспорт в CSV.
-  - Построение интерактивного дашборда в Preset/Superset.
+  - Построение интерактивного дашборда в Superset.
 
 
 ## Стек и инструменты
@@ -52,13 +51,14 @@ Pet-проект по исследованию данных о продажах 
      - сравнения платформ
      - сравнения ключевых категорий (н-р, жанры, издатели)
 5. **Экспорт итогового датафрейма**
-   - Сохранение обработанного датафрейма в CSV для дальнейшего импорта в Preset
+   - Сохранение обработанного датафрейма в CSV для дальнейшего импорта в Superset
 
 
-## Дашборд в Preset/Superset
+## Дашборд в Superset
 
 После завершения обработки данных:
 
-1. Итоговый CSV импортируется в Preset как источник данных
+1. Итоговый CSV импортируется в Superset как источник данных
 2. Настраиваются измерения и метрики
 3. На основе источника создаётся интерактивный дашборд
+
